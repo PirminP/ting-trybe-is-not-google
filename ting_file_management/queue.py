@@ -15,4 +15,4 @@ class Queue(AbstractQueue):
         return self._data.pop(0)
 
     def search(self, index):
-        """Aqui irá sua implementação"""
+        return self._data[index]
