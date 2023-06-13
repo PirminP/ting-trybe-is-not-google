@@ -12,7 +12,7 @@ class Queue(AbstractQueue):
         self._data.append(value)
 
     def dequeue(self):
-        """Aqui irá sua implementação"""
+        return self._data.pop(0)
 
     def search(self, index):
         """Aqui irá sua implementação"""
