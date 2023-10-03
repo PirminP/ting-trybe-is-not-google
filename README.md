@@ -12,7 +12,7 @@
   
 | Function | Description | Location |
 | ----------- | ----------- | ----------- |
-| `Queue`   | ... | `ting_file_management/queue.py` |
+| `Queue`   | Class created for storing files by queues | `ting_file_management/queue.py` |
 | `txt_importer`   | ... | `ting_file_management/file_management.py` |
 | `process`   | ... | `ting_file_management/file_process.py` |
 | `remove`   | ... | `ting_file_management/file_process.py` |
