@@ -77,3 +77,7 @@ To install dependencies and start applications:
 python3 -m venv .venv // create virtual environment
 source .venv/bin/activate // activate virtual environment
 python3 -m pip install -r dev-requirements.txt // install dependencies
+
+```
+### Running Application
+* To run...
