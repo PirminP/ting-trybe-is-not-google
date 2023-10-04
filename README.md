@@ -81,3 +81,12 @@ python3 -m pip install -r dev-requirements.txt // install dependencies
 ```
 ### Running Application
 * The `main.py` file contains examples for running application described below, command: `python3 -m main`
+
+1. Create an instance of `Queue` Class and add information from TXT files in `statics` directory:
+  
+  ```
+  queue = Queue()
+  process('statics/arquivo_teste.txt', queue)
+  process('statics/nome_pedro.txt', queue)
+  ```
+   
