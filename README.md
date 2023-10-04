@@ -1,5 +1,3 @@
-# :construction: README em construção ! :construction:
-
 # Project TING (Trybe is not Google)
 
 #### This project consists of an application that simulates a document indexing algorithm similar to Google's, capable of identifying occurrences in TXT files.
