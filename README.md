@@ -83,18 +83,33 @@ python3 -m pip install -r dev-requirements.txt // install dependencies
 * The `main.py` file contains examples for running application described below, command: `python3 -m main`
 
 1. Create an instance of `Queue` Class and add information from TXT files in `statics` directory:
-  
   ```
   queue = Queue()
   process('statics/arquivo_teste.txt', queue)
   process('statics/nome_pedro.txt', queue)
   ```
-2. To remove the information in created instance, use `remove` function:
+2. Remove the information in created instance with `remove` function:
   ```
   remove(queue)  # Arquivo statics/arquivo_teste.txt removido com sucesso
   ```
-3. To locate the information in `index/position`, use `file_metadata` function:
+3. Locate the information in `index/position` with`file_metadata` function:
   ```
   file_metadata(queue, 0)  # Return first and only element in queue (nome_pedro.txt)
   file_metadata(queue, 1)  # Invalid position
+  ```
+4. Create search reports for words in instance using `exists_word` functions:
+   `print(exists_word('menino', queue))`
+  ```
+  [{
+  "palavra": "menino",
+  "arquivo": "statics/nome_pedro.txt",
+  "ocorrencias": [
+    {
+      "linha": 1
+    },
+    {
+      "linha": 2
+    }
+  ]
+}]
   ```
