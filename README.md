@@ -17,7 +17,7 @@
 | `process`   | Function to import information from TXT file and add it to instance of `Queue` Class | `ting_file_management/file_process.py` |
 | `remove`   | Function to remove first processed file present in instance | `ting_file_management/file_process.py` |
 | `file_metadata`   | Function to find data in instance via given index | `ting_file_management/file_process.py` |
-| `exists_word`   | ... | `ting_word_searches/word_search.py` |
+| `exists_word`   | Function to check for existence of a word in all processed files, returning a simplified report | `ting_word_searches/word_search.py` |
 | `search_by_word`   | - | `ting_word_searches/word_search.py` |
 
 </details>
