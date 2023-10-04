@@ -14,7 +14,7 @@
 | ----------- | ----------- | ----------- |
 | `Queue`   | Class created for storing files by queues | `ting_file_management/queue.py` |
 | `txt_importer`   | Function capable of reading TXT files and returning them in list format | `ting_file_management/file_management.py` |
-| `process`   | ... | `ting_file_management/file_process.py` |
+| `process`   | Function to import information from TXT file and add it to instance of `Queue` Class | `ting_file_management/file_process.py` |
 | `remove`   | ... | `ting_file_management/file_process.py` |
 | `file_metadata`   | ... | `ting_file_management/file_process.py` |
 | `exists_word`   | ... | `ting_word_searches/word_search.py` |
