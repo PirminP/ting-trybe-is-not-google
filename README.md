@@ -89,4 +89,12 @@ python3 -m pip install -r dev-requirements.txt // install dependencies
   process('statics/arquivo_teste.txt', queue)
   process('statics/nome_pedro.txt', queue)
   ```
-   
+2. To remove the information in created instance, use `remove` function:
+  ```
+  remove(queue)  # Arquivo statics/arquivo_teste.txt removido com sucesso
+  ```
+3. To locate the information in `index/position`, use `file_metadata` function:
+  ```
+  file_metadata(queue, 0)  # Return first and only element in queue (nome_pedro.txt)
+  file_metadata(queue, 1)  # Invalid position
+  ```
