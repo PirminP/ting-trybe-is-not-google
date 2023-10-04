@@ -98,18 +98,20 @@ python3 -m pip install -r dev-requirements.txt // install dependencies
   file_metadata(queue, 1)  # Invalid position
   ```
 4. Create search reports for words in instance using `exists_word` functions:
-   `print(exists_word('menino', queue))`
-  ```
-  [{
-  "palavra": "menino",
-  "arquivo": "statics/nome_pedro.txt",
-  "ocorrencias": [
-    {
-      "linha": 1
-    },
-    {
-      "linha": 2
-    }
-  ]
-}]
-  ```
+   `print(exists_word('menino', queue))`\
+   
+   Return:
+    ```
+    [{
+    "palavra": "menino",
+    "arquivo": "statics/nome_pedro.txt",
+    "ocorrencias": [
+      {
+        "linha": 1
+      },
+      {
+        "linha": 2
+      }
+    ]
+    }]
+    ```
