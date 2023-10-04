@@ -80,4 +80,4 @@ python3 -m pip install -r dev-requirements.txt // install dependencies
 
 ```
 ### Running Application
-* To run...
+* The `main.py` file contains examples for running application described below, command: `python3 -m main`
